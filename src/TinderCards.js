@@ -28,7 +28,7 @@ function TinderCards() {
             <div className="tinderCards__cardContainer" >
                 {people.map((person) => {
                     return (
-                        <div>
+                        
                            <TinderCard
                            className="swipe"
                            preventSwipe={["up", "down"]}
@@ -41,7 +41,7 @@ function TinderCards() {
                             <h3>{person.name}</h3>
                             </div>
                            </TinderCard>
-                        </div>
+                        
                     );
 
                 })}
